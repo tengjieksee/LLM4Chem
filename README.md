@@ -10,6 +10,134 @@ This is the official code repository for the paper *LlaSMol: Advancing Large Lan
   - LlaSMol-CodeLlama-7B: [https://huggingface.co/osunlp/LlaSMol-CodeLlama-7B](https://huggingface.co/osunlp/LlaSMol-CodeLlama-7B)
   - LlaSMol-Mistral-7B: [https://huggingface.co/osunlp/LlaSMol-Mistral-7B](https://huggingface.co/osunlp/LlaSMol-Mistral-7B)
 
+## Requirements
+```
+accelerate==0.24.1
+aiofiles==23.2.1
+aiohttp==3.8.6
+aiosignal==1.3.1
+altair==5.1.2
+annotated-types==0.6.0
+anthropic==0.24.0
+anyio==3.7.1
+appdirs==1.4.4
+async-timeout==4.0.3
+attrs==23.1.0
+beautifulsoup4==4.9.0
+bitsandbytes==0.41.3.post2
+certifi==2023.7.22
+charset-normalizer==3.3.0
+click==8.1.7
+conda-pack @ file:///home/conda/feedstock_root/build_artifacts/conda-pack_1691435290924/work
+contourpy==1.1.1
+cycler==0.12.1
+dataclasses-json==0.5.14
+datasets==2.14.5
+dill==0.3.7
+distro==1.9.0
+docker-pycreds==0.4.0
+exceptiongroup==1.1.3
+fastapi==0.103.2
+ffmpy==0.3.1
+filelock==3.12.4
+fire==0.5.0
+fonttools==4.43.1
+frozenlist==1.4.0
+fsspec==2023.6.0
+gitdb==4.0.10
+GitPython==3.1.37
+gradio==3.47.1
+gradio_client==0.6.0
+greenlet==3.0.3
+h11==0.14.0
+httpcore==0.18.0
+httpx==0.25.0
+huggingface-hub==0.17.3
+idna==3.4
+importlib-resources==6.1.0
+Jinja2==3.1.2
+jsonpatch==1.33
+jsonpointer==2.4
+jsonschema==4.19.1
+jsonschema-specifications==2023.7.1
+kiwisolver==1.4.5
+langchain==0.0.275
+langchain-core==0.2.1
+langchain-text-splitters==0.2.0
+langsmith==0.0.92
+MarkupSafe==2.1.3
+marshmallow==3.21.2
+matplotlib==3.8.0
+mkl-fft @ file:///croot/mkl_fft_1695058164594/work
+mkl-random @ file:///croot/mkl_random_1695059800811/work
+mkl-service==2.4.0
+molbloom==2.2.1
+multidict==6.0.4
+multiprocess==0.70.15
+mypy-extensions==1.0.0
+numexpr==2.10.0
+numpy==1.26.1
+openai==0.27.8
+orjson==3.10.3
+packaging==23.2
+pandas==2.1.1
+pathtools==0.1.2
+peft==0.7.0
+Pillow==10.1.0
+protobuf==4.24.4
+psutil==5.9.6
+PubChemPy==1.0.4
+pyarrow==13.0.0
+pydantic==2.4.2
+pydantic_core==2.10.1
+pydub==0.25.1
+pynvml==11.5.0
+pyparsing==3.1.1
+python-dateutil==2.8.2
+python-multipart==0.0.6
+pytz==2023.3.post1
+PyYAML==6.0.1
+rdchiral==1.1.0
+rdkit==2023.9.5
+referencing==0.30.2
+regex==2023.10.3
+requests==2.31.0
+rpds-py==0.10.6
+RXN4Chemistry==1.14.0
+safetensors==0.4.0
+scipy @ file:///croot/scipy_1701295040508/work/dist/scipy-1.11.4-cp39-cp39-linux_x86_64.whl#sha256=1f9b757a21b482354a59770c1b025701f2228439c621dc0894a792120398a6e9
+selfies==2.1.1
+semantic-version==2.10.0
+sentencepiece==0.1.99
+sentry-sdk==1.32.0
+setproctitle==1.3.3
+six==1.16.0
+smmap==5.0.1
+sniffio==1.3.0
+soupsieve==2.5
+SQLAlchemy==2.0.30
+starlette==0.27.0
+tenacity==8.3.0
+termcolor==2.3.0
+tokenizers==0.14.1
+toolz==0.12.0
+torch==1.13.1
+tqdm==4.66.1
+transformers==4.34.1
+typing-inspect==0.9.0
+typing_extensions @ file:///croot/typing_extensions_1705005625920/work
+tzdata==2023.3
+urllib3==2.0.6
+uvicorn==0.23.2
+wandb==0.15.12
+websockets==11.0.3
+xxhash==3.4.1
+yarl==1.9.2
+zipp==3.17.0
+```
+
+
+
 ## Tasks and Examples
 
 Our models are trained on 4 types of 14 essential tasks, which, along with examples, are listed below.
